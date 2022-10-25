@@ -13,7 +13,7 @@
 	</div>
 	<div class="w-1/2">
 		<div class="flex h-full flex-col px-4 text-white md:px-12">
-			<div class="mt-8 text-4xl font-semibold md:mt-32">Innovation (n):</div>
+			<div id="innovation" class="text-4xl font-semibold ">Innovation (n):</div>
 			<div class="mt-6 text-2xl font-thin">
 				“the implementation of a new or significantly improved product (good or service) or process,
 				a new marketing method, or a new organisational method in business practices, workplace
@@ -39,3 +39,9 @@
 	</p>
 	<p>evolution image: https://phys.org/news/2019-09-evolution-doesnt-proceed-straight-line.html</p>
 </PresenterNotes>
+
+<style>
+	#innovation {
+		margin-top: clamp(10vh, 30vh, calc(100vh - 15em));
+	}
+</style>
