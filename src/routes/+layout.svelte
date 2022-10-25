@@ -1,11 +1,13 @@
 <script>
+	import '../app.postcss';
+
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import current from '$lib/store';
 
 	// Array with the order of the slides
-	const slides = ['welcome', 'intro'];
+	const slides = ['1', '2', '3'];
 
 	const isPresentation = $page.url.searchParams.has('presentation');
 
@@ -34,4 +36,6 @@
 	<a href="{$page.url.pathname}?presentation" target="_blank" rel="noreferrer">Open presentation</a>
 {/if}
 
-<slot />
+<div class="min-h-screen min-w-full font-sans">
+	<slot />
+</div>
