@@ -33,7 +33,12 @@
 </script>
 
 {#if !isPresentation}
-	<a href="{$page.url.pathname}?presentation" target="_blank" rel="noreferrer">Open presentation</a>
+	<a
+		class="text-white underline hover:text-blue-600"
+		href="{$page.url.pathname}?presentation"
+		target="_blank"
+		rel="noreferrer">Open presentation</a
+	>
 {/if}
 
 <div class="mx-auto min-h-screen max-w-7xl font-sans">
