@@ -36,6 +36,6 @@
 	<a href="{$page.url.pathname}?presentation" target="_blank" rel="noreferrer">Open presentation</a>
 {/if}
 
-<div class="min-h-screen min-w-full font-sans">
+<div class="mx-auto min-h-screen max-w-7xl font-sans">
 	<slot />
 </div>

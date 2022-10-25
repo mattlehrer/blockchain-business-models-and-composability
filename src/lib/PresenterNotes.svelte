@@ -4,7 +4,7 @@
 </script>
 
 {#if !isPresentation}
-	<div>
+	<div class="space-y-4">
 		<slot />
 	</div>
 {/if}
