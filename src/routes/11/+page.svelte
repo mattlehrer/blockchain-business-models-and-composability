@@ -7,7 +7,7 @@
 <div class="relative flex min-h-screen bg-white">
 	<div class="flex w-1/2 justify-center bg-white">
 		<img
-			class="absolute top-1/2 max-h-screen max-w-[50%] -translate-y-1/2 transform py-2"
+			class="absolute top-1/2 max-h-screen max-w-[45%] -translate-y-1/2 transform py-2"
 			src={planning_the_software_industrial_revolution}
 			alt="First page of Planning the software industrial revolution by B Cox, IEEE Software, 1990"
 		/>

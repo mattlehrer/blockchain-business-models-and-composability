@@ -7,7 +7,7 @@
 <div class="relative flex min-h-screen bg-white">
 	<div class="flex w-1/2 justify-center bg-white">
 		<img
-			class="absolute top-1/2 max-h-screen max-w-[35%] -translate-y-1/2 transform py-2"
+			class="absolute top-1/2 max-h-screen max-w-[27%] -translate-y-1/2 transform py-2"
 			src={netscape_logo}
 			alt="Netscape logo"
 		/>

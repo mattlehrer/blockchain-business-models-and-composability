@@ -6,7 +6,7 @@
 <div class="relative flex min-h-screen bg-gray-600">
 	<div class="flex w-1/2 justify-center bg-white">
 		<img
-			class="absolute top-1/2 max-h-screen max-w-[50%] -translate-y-1/2 transform"
+			class="absolute top-1/2 max-h-screen max-w-[50%] -translate-y-1/2 transform border border-gray-400"
 			src={oecd}
 			alt="Title page of the OECD's The Innovation Imperative report from 2015"
 		/>

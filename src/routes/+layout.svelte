@@ -7,7 +7,7 @@
 	import current from '$lib/store';
 
 	// Array with the order of the slides
-	const slides = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'];
+	const slides = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14'];
 
 	const isPresentation = $page.url.searchParams.has('presentation');
 
@@ -41,6 +41,6 @@
 	>
 {/if}
 
-<div class="mx-auto min-h-screen max-w-7xl font-sans">
+<div class="mx-auto max-h-[20rem] max-w-7xl font-sans">
 	<slot />
 </div>
