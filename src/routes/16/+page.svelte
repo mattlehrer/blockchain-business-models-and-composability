@@ -13,11 +13,14 @@
 				the blockchain protocol specifies.”
 			</p>
 			<p class="mt-16 self-end text-base font-bold text-gray-300 sm:text-2xl">
-				Vitalik Buterin, 2015
+				- Vitalik Buterin, 2015
 			</p>
 		</div>
 		<p class="text-right text-gray-300">
-			Source: https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology
+			Source: <a
+				href="https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology"
+				>https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology</a
+			>
 		</p>
 	</div>
 </div>
