@@ -7,7 +7,24 @@
 	import current from '$lib/store';
 
 	// Array with the order of the slides
-	const slides = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'];
+	const slides = [
+		'1',
+		'2',
+		'3',
+		'4',
+		'5',
+		'6',
+		'7',
+		'8',
+		'9',
+		'10',
+		'11',
+		'12',
+		'13',
+		'14',
+		'15',
+		'16',
+	];
 
 	const isPresentation = $page.url.searchParams.has('presentation');
 
