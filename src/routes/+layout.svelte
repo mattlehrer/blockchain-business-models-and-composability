@@ -29,6 +29,7 @@
 		'16',
 		'17',
 		'18',
+		'19',
 	];
 
 	let start: number = slides.indexOf(data.path);
