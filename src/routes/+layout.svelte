@@ -1,10 +1,13 @@
-<script>
+<script lang="ts">
 	import '../app.postcss';
 
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import current from '$lib/store';
+	import type { LayoutServerData } from './$types';
+
+	export let data: LayoutServerData;
 
 	// Array with the order of the slides
 	const slides = [
@@ -26,9 +29,12 @@
 		'16',
 	];
 
+	let start: number = slides.indexOf(data.path);
+
 	const isPresentation = $page.url.searchParams.has('presentation');
 
 	onMount(() => {
+		$current = start > 0 ? start : 0;
 		const unsubscribe = current.subscribe((c) => {
 			if (isPresentation) {
 				goto(`/${slides[c]}?presentation`);
